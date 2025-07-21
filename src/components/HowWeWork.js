@@ -4,7 +4,7 @@ const HowWeWork = () => {
 	return (
 		<section className='bg-maWhite'>
 			<div className='myContainer py-16 md:py-32 flex flex-col lg:flex-row gap-12'>
-				{/* Chap taraf */}
+				{/* left */}
 				<div className='lg:w-1/3 space-y-4 text-center lg:text-left'>
 					<h2 className='font-semibold text-3xl md:text-5xl leading-snug text-manguBlack'>
 						How we work
@@ -18,7 +18,7 @@ const HowWeWork = () => {
 					</button>
 				</div>
 
-				{/* O‘ng taraf - Kartalar */}
+				{/* right */}
 				<div className='grid sm:grid-cols-2 gap-y-10 gap-x-5 lg:w-2/3'>
 					{['Strategy', 'Wireframing', 'Design', 'Development'].map((title, idx) => (
 						<div key={idx} className='bg-white p-6 rounded-lg shadow-sm text-center sm:text-left'>
