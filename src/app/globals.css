@@ -6,4 +6,7 @@
 	.myContainer{
 		@apply w-full max-w-7xl mx-auto px-5
 	}
+	.inputStyle{
+		@apply block w-full py-4 pl-8 border-2 border-white/5 rounded-lg bg-flyByNight
+	}
 }
