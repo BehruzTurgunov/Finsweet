@@ -18,7 +18,7 @@ const HowWeWork = () => {
 				</div>
 				{/* right */}
 				<>
-					<div className='grid md:grid-cols-2 gap-y-10  max-w-6xl mx-auto'>
+					<div className='grid md:grid-cols-2 gap-y-10 gap-x-5 max-w-6xl mx-auto'>
 						{['Strategy', 'Wireframing', 'Design', 'Development'].map(
 							(title, idx) => (
 								<div key={idx} className='bg-white p-5 rounded-lg'>
