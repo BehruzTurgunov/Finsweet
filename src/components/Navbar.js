@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = ({ className = '' }) => {
   return (
-    <nav className={`space-x-8 font-medium text-base leading-6 ${className}`}>
+    <nav className={`font-medium text-base leading-6 ${className}`}>
       <Link href='/'>Home</Link>
       <Link href='/About'>About us</Link>
       <Link href='/features'>Features</Link>
